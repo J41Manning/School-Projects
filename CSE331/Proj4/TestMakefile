@@ -1,0 +1,8 @@
+argh: P4testmain.o
+	g++ -g P4testmain.o -o argh
+
+P4testmain.o: P4testmain.cpp Tree.h
+	g++ -g -c P4testmain.cpp
+
+clean: 
+	rm *.o -f

@@ -1,0 +1,11 @@
+blah: TestDriver.o random.o
+	g++ -g TestDriver.o random.o -o blah
+
+TestDriver.o: TestDriver.cpp RevList.h
+	g++ -g -c TestDriver.cpp
+
+random.o: random.cpp random.h
+	g++ -g -c random.cpp
+
+clean: 
+	rm *.o -f
