@@ -4,6 +4,7 @@ Codes I wrote when I was a student
 I'm planning on adding more as I remember
 Things will most likely be added by class name
 So some classes that may be added:
+
 | Class Name                             | Course Number |
 |----------------------------------------|---------------|
 | Operating Systems                      | CSE 410       |
